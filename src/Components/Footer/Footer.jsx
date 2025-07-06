@@ -1,35 +1,35 @@
-import React from 'react'
+import React from 'react';
 import './Footer.css';
-import footer_logo from '../../assets/footer_logo.svg'
-import user_icon from '../../assets/user_icon.svg'
+import footer_logo from '../../assets/Saniya.svg';
+import user_icon from '../../assets/user_icon.svg';
+import linkedin_icon from '../../assets/linkedin.svg';
+import github_icon from '../../assets/github.svg';
+import leetcode_icon from '../../assets/leetcode.svg';
+
 const Footer = () => {
   return (
-    <div className='footer'>
-        <div className='footer-top'>
-            <div className='footer-top-left'>
-                <img src={footer_logo} alt=""/>
-                <p>I am a frontend developer.</p>
-            </div>
-            <div className='footer-top-right'>
-                <div className="footer-email-input">
-                     <img src={user_icon} alt=''/>
-                <input type='email' placeholder='Enter your email'/>
-                </div>
-                <div className='footer-subscribe'>Subscribe</div>
-            </div>
-        </div>
-        <hr/>
-        <div className="footer-bottom">
-            <p className="footer-bottom-left">(c) 2023 Saniya Ahuja. All rights reserved</p>
-            <div className="footer-bottom-right">
-                <p>Term of Service</p>
-                <p>Privacy Policy</p>
-                <p>Connect with me</p>
-            </div>
-        </div>
-    </div>
     
-  )
-}
+    <div className='footer'><hr/>
+      <div className='footer-top'>
+        <div className='footer-top-left'>
+          <img src={footer_logo} alt="Logo" />
+          <p>I am a frontend developer.</p>
+        </div>
+        <p className="footer-bottom-left">© 2025 Saniya Ahuja. All rights reserved</p>
+        <div className="footer-bottom-right">
+          <a href='https://www.linkedin.com/in/saniya-ahuja-99136a276' target='_blank' rel='noopener noreferrer'>
+            <img src={linkedin_icon} alt='LinkedIn' />
+          </a>
+          <a href='https://github.com/Asaniya127' target='_blank' rel='noopener noreferrer'>
+            <img src={github_icon} alt='GitHub' />
+          </a>
+          <a href='https://leetcode.com/your-username' target='_blank' rel='noopener noreferrer'>
+            <img src={leetcode_icon} alt='LeetCode' />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;

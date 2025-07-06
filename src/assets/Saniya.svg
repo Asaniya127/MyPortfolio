@@ -1,0 +1,16 @@
+<svg width="300" height="60" viewBox="0 0 300 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paint0_linear" x1="219.1" y1="39.9983" x2="202.599" y2="91.4037">
+      <stop offset="0%" stop-color="#DF8908"/>
+      <stop offset="100%" stop-color="#B415FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Moved swoosh downward -->
+  <path d="M10 50 C10 45 15 40 20 40 L50 45 C55 46 60 42 60 38 C60 34 55 30 51 32 L22 46 C19 47 10 55 10 50Z" fill="url(#paint0_linear)"/>
+
+  <!-- "Saniya" text remains above -->
+  <text x="10" y="40" font-size="40" font-family="Arial, sans-serif" font-weight="bold" fill="white">
+    Saniya
+  </text>
+</svg>
